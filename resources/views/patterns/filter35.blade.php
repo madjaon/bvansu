@@ -25,8 +25,7 @@
 			url: '/xemboithayphan',
 			data: {
 				'question': question,
-				'answer': answer,
-				'_token': '{{ csrf_token() }}'
+				'answer': answer
 			},
 			beforeSend: function() {
 	            $('#filter35').html('Xin bạn chờ thầy chút');

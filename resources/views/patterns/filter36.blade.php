@@ -19,8 +19,7 @@
 			type: 'post',
 			url: '/xemboiaicap',
 			data: {
-				'fullname': fullname,
-				'_token': '{{ csrf_token() }}'
+				'fullname': fullname
 			},
 			beforeSend: function() {
 	            $('#filter36').html('Xin bạn bạn chờ chút');

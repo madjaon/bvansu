@@ -21,8 +21,7 @@
 			data: {
 				'day': day,
 				'month': month,
-				'year': year,
-				'_token': '{{ csrf_token() }}'
+				'year': year
 			},
 			beforeSend: function() {
 	            $('#filter23').html('Xin bạn chờ chút');
